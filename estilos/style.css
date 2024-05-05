@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Netflix";
+    src: url('../fonts/NetflixSans-Regular.woff2');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, main {
+    background-image: url("../imagens/BR-pt-20240429-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+div#container > img {
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+div#container > div#form {
+    background-color: rgba(0, 0, 0, 0.781);
+    width: 470px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 150px;
+    border-radius: 5px;
+
+}
+
+div#container div#form > h1 {
+    font-family: "Netflix";
+    position: relative;
+    left: 100px;
+    top: 50px;
+    color: white;
+}
+
+div#container div#form > input.formulario {
+    color: white;
+    font-family: "Netflix";
+    background-color: #1D2536;
+    position: relative;
+    left: 100px;
+    top: 60px;
+    width: 50%;
+    padding: 19px;
+    margin-top: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    border-radius: 5px;
+}
+
+div#container div#form > input.btn {
+    font-family: "Netflix";
+    background-color: #db111b;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 16px;
+    width: 58%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 75px;
+    left: 100px;
+    cursor: pointer;
+}
+
+div#container div#form > input.btn:hover {
+    background-color: #ff000d;
+    box-shadow: 1px 0px 0px 1px #ff000d;
+    transition: 0.2s;
+}
+
+div#container div#form > label {
+    font-family: "Netflix";
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.603);
+    position: relative;
+    left: 125px;
+    bottom: 2px;
+    margin-top: 10px;
+}
+
+div#container div#form > input.radio {
+    position: relative;  
+    left: 15px;
+    margin-top: 10px;
+}
+
+div#container div#form > a {
+    font-family: "Netflix";
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.61);
+    position: relative;
+    right: 100px;
+    float: right;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+div#container div#form > a:hover {
+    text-decoration: underline;
+}
+
+div#container div#form > p.sign {
+    font-size: 0.8em;
+    font-family: "Netflix";
+    color: rgba(255, 255, 255, 0.63);
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: auto; 
+}
+
+div#container div#form > p.sign > a {
+    font-size: 0.9em;
+    font-family: "Netflix";
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+div#container div#form > p.sign > a:hover {
+    text-decoration: underline;
+}
+
+div#container div#form > p.foot {
+    font-family: "Netflix";
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.589);
+    position: relative;
+    top: 10px;
+    margin-top: 15px;
+    margin-left: 100px;
+    
+}
+
+div#container div#form p.foot > a {
+    font-family: "Netflix";
+    text-decoration: none;
+    color: rgb(70, 70, 253);
+}
+
+div#container div#form p.foot > a:hover {
+    text-decoration: underline;
+}
+
+::placeholder {
+    color: rgba(240, 248, 255, 0.623);
+}
+
+@media screen and (max-width:500px) {
+    html main {
+        position: absolute;
+        background-image: none;
+        background-color: black;
+    }
+    div#container > img {
+        position: relative;
+        left: 160px;
+        top: 50px;
+    }
+}
