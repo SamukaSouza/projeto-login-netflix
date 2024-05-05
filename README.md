@@ -2,6 +2,8 @@
 
  Projeto criado para testar minhas habilidades com HTML e CSS. Site de login recriado apenas visualizando a imagem do Login do Site Oficial da Netflix no Google Imagens.
 
+ [🔗Clique aqui para acessar o projeto](https://samukasouza.github.io/projeto-login-netflix/)
+
 ## 🛠️ Tecnologias utilizadas
 * HTML
 * CSS
