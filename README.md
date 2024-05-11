@@ -8,10 +8,6 @@
 * HTML
 * CSS
 
-## 🔎 Outras informações
-
-O projeto foi criado incluindo responsividade utilizando código CSS, possibilitando ao usuário a utilização da aplicação partindo de qualquer dispositivo! 📱
-
 ## 📲 Contato
 
 ✉️ E-mail: samuca-santos@hotmail.com
